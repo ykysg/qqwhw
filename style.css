@@ -1,23 +1,62 @@
+a{
+    color: black;
+}
+a:hover{
+   color: black;
+}
+
+
 body{
-    display:flex;
-    flex-direction: column;
-    text-align: center;
+        display:flex;
+        flex-direction:column;
+     }
+
+main {
+  display:flex;
+  flex:auto;
 }
-main{
-    display: flex;
-    flex:auto;
-}
+
 aside{
-    flex: 1;
-    background-color: aqua;
+    flex:1;
+    background: rgb(165, 117, 95);
+    float: left;
 }
 article{
     flex:3;
-    background-color: aquamarine;
+    margin: 0 auto;
+    text-align: center;
 }
-header,footer{
-
-    background-color: burlywood;
-
-
+header{
+    background: rgb(250, 177, 67);
 }
+
+ul li{
+    margin:5px 10px;
+    float:left;
+    list-style:none;
+}
+ ul li a{
+    float:left;
+    padding:0px 16px;
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+
+ }
+ .aa{
+     float: right;
+ }
+ .bb{
+    min-height: 8em;
+    width: calc(150% );
+ }
+ .cc{
+     position: fixed;
+     bottom: 120px;
+ }
+ .zt{
+     color: ivory;
+ }
+ .dd{
+     background-color: rgb(250, 220, 220);
+ }
