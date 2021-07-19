@@ -4,7 +4,7 @@
     <title>我的个人网站</title>
     <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-	
+	<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 </head>
 
 <body>
@@ -30,8 +30,15 @@
 	<div><a href="https://www.bilibili.com/video/BV11f4y1b74Q" target="_blank"><img src="./images/9.jpg"></a></div>
 	<div class="cc" id="div1">
         <br>
-        <span></span><textarea class="bb" id="lang"></textarea><br>
-        <input type="button" value="提交评价" id="btn">
+       <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'Your appId',
+            appKey: 'Your appKey'
+        })
+    </script>
+</body>
     </div>
 							
 </aside>
