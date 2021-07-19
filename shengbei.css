@@ -19,7 +19,15 @@ body{
 header,footer{
     height: 50px;
     background-color: burlywood;
+    width: 50%;
+
 }
 .aaa{
-    flex: 50%;
+    flex: 40%;
+}
+.bbb{
+    display: flex;
+    flex:auto;
+    width: 100%;
+    background-color: cyan;
 }
