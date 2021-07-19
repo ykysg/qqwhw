@@ -2,46 +2,53 @@ a:hover
 { 
 color:green;
 }
-		*{
+		
+*{
 			box-sizing:content-box;
 			margin:0;
 			padding:0;
 		}
 	
-		body{
+		
+body{
 			display:flex;
 			flex-direction:column;
 		}
 	
-		header,footer{
+		
+header,footer{
 			flex:0 0 50px;
 			background:#3f3f3f;
 		}
 	
-		.main{
+		
+.main{
 			display:flex;
 	
 			flex:auto;
 		}
 	
-	   .article{
+.article{
 			background:red;
 			flex:3;
 			height:400px;
 	   }
-	   .aside{
+	   
+.aside{
 		   flex:1;
 		   height:400px;
 	   }
 	   
-	   .right{
+	   
+.right{
 			
 			background:blue;
 			flex:auto;
 			height:400px;
 	   }
 	
-	   .aside{
+	   
+.aside{
 			order:-1;
 	   }
 	
