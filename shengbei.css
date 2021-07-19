@@ -12,6 +12,7 @@ body{
 header,footer{
     flex:0 0 50px;
     background:#3f3f3f;
+    flex-direction: column;
 }
 
 .main{
