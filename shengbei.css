@@ -1,35 +1,25 @@
 body{
     display:flex;
-    flex-direction:column;
-    text-align:center;
-}
-
-header,footer{
-    flex:1 1 50px;
-    background:#fcedd0;
     flex-direction: column;
+    text-align: center;
 }
-
 .main{
-    display:flex;
+    display: flex;
     flex:auto;
-}
-
-.article{
-    background:rgb(180, 227, 255);
-    flex:3;
-    height:400px;
+    height: 300px;
 }
 .aside{
-    width:200px;
-   flex:1;
-   height:400px;
-
+    flex: 1;
+    background-color: aqua;
 }
-.right{
-    
-    background:rgb(239, 255, 169);
-    flex: auto;
-    height:400px;
+.article{
+    flex:3;
+    background-color: aquamarine;
 }
-
+header,footer{
+    height: 50px;
+    background-color: burlywood;
+}
+.aaa{
+    flex: 50%;
+}
