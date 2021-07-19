@@ -1,6 +1,51 @@
 <html>
 <head>
-  <link href="style.css" rel="stylesheet">	
+	<style type="text/css">
+		*{
+			box-sizing:content-box;
+			margin:0;
+			padding:0;
+		}
+	
+		body{
+			display:flex;
+			flex-direction:column;
+		}
+	
+		header,footer{
+			flex:0 0 50px;
+			background:#3f3f3f;
+		}
+	
+		.main{
+			display:flex;
+	
+			flex:auto;
+		}
+	
+	   .article{
+			background:red;
+			flex:3;
+			height:400px;
+	   }
+	   .aside{
+		   flex:1;
+		   height:400px;
+	   }
+	   
+	   .right{
+			
+			background:blue;
+			flex:auto;
+			height:400px;
+	   }
+	
+	   .aside{
+			order:-1;
+	   }
+	
+	</style>
+	
 </head>
 <body>
     <header>header</header>
