@@ -26,5 +26,10 @@ header,footer{
    height:400px;
 
 }
-
+.right{
+    
+    background:rgb(239, 255, 169);
+    flex: auto;
+    height:400px;
+}
 
