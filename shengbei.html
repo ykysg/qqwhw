@@ -1,57 +1,12 @@
 <html>
 <head>
-	<style type="text/css">
-		*{
-			box-sizing:content-box;
-			margin:0;
-			padding:0;
-		}
-	
-		body{
-			display:flex;
-			flex-direction:column;
-		}
-	
-		header,footer{
-			flex:0 0 50px;
-			background:#3f3f3f;
-		}
-	
-		.main{
-			display:flex;
-	
-			flex:auto;
-		}
-	
-	   .content{
-			background:red;
-			flex:3;
-			height:400px;
-	   }
-	   .left{
-		   flex:1;
-		   height:400px;
-	   }
-	   
-	   .right{
-			
-			background:blue;
-			flex:auto;
-			height:400px;
-	   }
-	
-	   .left{
-			order:-1;
-	   }
-	
-	</style>
 	
 </head>
 <body>
     <header>header</header>
     <div class="main">
-        <div class="content">article</div>
-        <div class="left">aside</div>
+        <div class="article">article</div>
+        <div class="aside">aside</div>
         <div class="right"></div>
     </div>
     <footer>footer</footer>
