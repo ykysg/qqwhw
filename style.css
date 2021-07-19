@@ -1,4 +1,28 @@
-a:hover
-{ 
-color:green;
+body{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex:auto;
+}
+.aside{
+    flex: 1;
+    background-color: aqua;
+}
+.article{
+    flex:3;
+    background-color: aquamarine;
+}
+header,footer{
+
+    background-color: burlywood;
+
+
+}
+.aaa{
+    
+    background:rgb(239, 255, 169);
+    flex: auto;
 }
