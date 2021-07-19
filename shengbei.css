@@ -1,37 +1,35 @@
 body{
     display:flex;
     flex-direction:column;
+    text-align:center;
 }
 
 header,footer{
-    flex:0 0 50px;
-    background:#3f3f3f;
+    flex:1 1 50px;
+    background:#fcedd0;
     flex-direction: column;
 }
 
 .main{
     display:flex;
-
     flex:auto;
 }
 
 .article{
-    background:red;
+    background:rgb(180, 227, 255);
     flex:3;
     height:400px;
 }
 .aside{
+    width:200px;
    flex:1;
    height:400px;
+
 }
 
 .right{
     
-    background:blue;
-    flex:auto;
+    background:rgb(239, 255, 169);
+    flex: auto;
     height:400px;
-}
-
-.aside{
-    order:-1;
 }
