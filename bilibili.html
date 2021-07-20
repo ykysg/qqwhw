@@ -4,7 +4,7 @@
     <title>我的个人网站</title>
     <link href="https://www.adalab.cn/admission.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-	
+	<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 </head>
 
 <body>
@@ -41,7 +41,14 @@
 </article>
 
  </main>         
-    
+       <div id="vcomments" class="cc"></div>
+    <script class="cc">
+        new Valine({
+            el: '#vcomments',
+            appId: '2JCi0uyfROcQvfAtTRoEKtMn-gzGzoHsz',
+            appKey: 'CsvuvA33TTAMkvXm4cOJr6nE'
+        })
+    </script>
 <footer>
     by <a href="https://www.zhihu.com/people/quan-quan-wei-he-wu">圈圈</a> for <a href="https://www.adalab.cn/" target="_blank">Adalab</a>
     </footer>
