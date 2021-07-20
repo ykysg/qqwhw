@@ -52,7 +52,8 @@ ul li{
  }
  .cc{
      position: fixed;
-     bottom: 120px;
+     bottom: 0px;
+     raght:  60%;
  }
  .zt{
      color: ivory;
